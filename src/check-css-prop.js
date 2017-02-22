@@ -15,6 +15,10 @@
 
         if (!window.elementForCheck) window.elementForCheck = document.createElement('a')
 
+        propName = propName.replace(/\-(.){1}/g, function (letter) {
+            return letter.substr(1).toUpperCase()
+        })
+
         if (typeof window.elementForCheck.style[propName] !== 'undefined')
             return propName
 
@@ -25,10 +29,6 @@
             'o'
         ]
         let result = ''
-
-        propName = propName.replace(/\-(.){1}/g, function (letter) {
-            return letter.substr(1).toUpperCase()
-        })
 
         if (typeof window.elementForCheck.style[propName] !== 'undefined')
             return propName
