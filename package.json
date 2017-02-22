@@ -1,0 +1,24 @@
+{
+  "name": "check-css-prop",
+  "version": "1.0.0",
+  "description": "Check CSS Property availability.",
+  "main": "src/check-css-prop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diablohu/check-css-prop"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Diablohu/check-css-prop"
+    }
+  ],
+  "author": {
+    "name": "Diablohu",
+    "email": "diablohudream@gmail.com"
+  },
+  "license": "MIT"
+}
