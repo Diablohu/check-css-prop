@@ -1,6 +1,6 @@
 {
   "name": "check-css-prop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check CSS Property availability.",
   "main": "src/check-css-prop.js",
   "scripts": {

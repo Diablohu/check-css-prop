@@ -1,7 +1,2 @@
-declare module 'checkCssProp' {
-    function checkCssProp(
-        propName: string
-    ):string
-    
-    export default checkCssProp
-}
+declare function checkCssProp(propName: string): string;
+export default checkCssProp;
